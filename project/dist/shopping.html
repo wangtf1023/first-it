@@ -1,0 +1,416 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购买</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src = "js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src = "js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/js.js"></script>
+	<script type="text/javascript" src="js/购买.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/购买.css">
+</head>
+<body unselectable="on" onselectstart="return false;" style="-moz-user-select:none;">
+	<div id="nav">
+		<div id="nav_nav">
+			<div id="home_nav_logo">
+				<a href="主页.html">
+					<img src="image/logo.png" />
+				</a>
+			</div>
+			<div id="home_navigation">
+				<ul>
+					<li><a href="红辣椒.html">红辣椒手机</a></li>
+					<li><a href="小辣椒.html">小辣椒手机</a></li>
+					<li><a href="服务.html">服务</a></li>
+					<li><a href="http://bbs.xiaolajiao.com/default.php">社区</a></li>
+					<li><a href="http://www.xiaolajiao.com/activity/buy/">分期</a></li>
+				</ul>
+			</div>
+			<div id="home_nav_div">
+				<div id="home_nav_inp">
+		        	<input type="input" placeholder="" ="搜索" />
+		        	<div></div>
+		  		</div>
+		  		<div id="home_nav_sho">
+		  			<a id="home_nav_sho_a">
+		  				
+		  			</a>
+					<p id="home_nav_sho_p">0</p>
+		  			<div id="shopping">
+		        		<div id="shopping_div1"></div>
+		        		<div id="shopping_div2">
+		        			<div id="shopping_div2_div1">
+		        				你的购物车空空如也~~
+		        			</div>
+		        			<div id="shopping_div2_div2"></div>
+		        			<ul></ul>
+		        			<div id="shopping_div2_ul_div3">
+		        				<div>
+		        					<p>合计:</p>
+		        					<p id="shopping_div2_ul_div3_p"></p>
+		        				</div>
+		        				<button>付款</button>
+		        			</div>
+		        		</div>
+		        	</div>
+		  		</div>
+		  		<div id="home_nav_div1">
+		  			<span></span>
+		  			<a href="登录.html">登录</a> | 
+		  			<a href="注册.html">注册</a>
+		  		</div>
+
+			</div>		
+		</div>
+		<div id="home_nav_nav2">
+			<div class="home_nav_nav1">
+				<ul id="home_nav_nav2_ul">
+
+				</ul>
+			</div>
+		</div>
+		<div id="home_nav_nav3">
+			<div class="home_nav_nav1">
+				<ul id="home_nav_nav3_ul">
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+
+
+	<div id="by_body">
+		<div id="by_body_1">
+			<a href="主页.html">首页</a>
+			<code>></code>
+			<a href="红辣椒.html">红辣椒手机</a>
+			<code>></code>
+			<span>红辣椒Note4X(3G+32G)</span>
+		</div>
+		<div id="by_body_2">
+			<div id="by_body_2_1">
+				<div id="by_body_2_1_1">
+					<div id="by_body_2_1_1_div2"></div>
+					<ul id="by_body_2_1_1_ul">
+						<!-- <li>
+							<img src="by-img/3.jpg" />
+						</li> -->
+					</ul>
+					<div id="by_body_2_1_1_div1"></div>					
+				</div>
+				<div id="by_body_2_1_1_div">
+					<ul></ul>
+				</div>
+				<div id="by_body_2_1_2">
+					<!-- <span></span>
+					<span></span> -->
+				</div>
+				<div id="by_body_2_1_3">
+					<div></div>
+					<div></div>
+				</div>
+				<div id="by_body_2_1_4">
+				<!-- 	<button>用放大镜</button> -->
+
+				</div>
+			</div>
+			<div id="by_body_2_2">
+				<h1></h1>
+				<p id="by_body_2_2_p"></p>
+				<div class="by_body_2_2_div" id="by_body_2_2_div1">
+					<h4>版本</h4>
+					<ul>
+						
+					</ul>
+				</div>
+				<div class="by_body_2_2_div" id="by_body_2_2_div2">
+					<h4>颜色</h4>
+					<ul>
+						<!-- <li class="by_body_first">
+							
+						</li>
+						<li>
+							
+						</li>
+						<li>
+							
+						</li> -->
+					</ul>
+				</div>
+				<div class="by_body_2_2_div">
+					<h4>数量</h4>
+					<div id="by_body_2_2_div">
+						<div onselectstart="return false" id="by_body_2_2_div_div1" class="by_body_2_2_div1">-</div>
+						<input type="text" value="1" />
+						<div onselectstart="return false" id="by_body_2_2_div_div2" class="by_body_2_2_div1">+</div>
+					</div>
+				</div>
+			
+				<div id="by_body_2_2_div4">
+					<p>赠品 :</p>
+					<div>
+						<a href="#">
+							<img src="by-img/19.jpg"/>
+							配件礼包
+						</a>
+						<select>
+							<option>随机</option>
+						</select>
+						x1
+					</div>
+				</div> 
+				<div id="by_body_2_2_div5">
+					<p id="by_body_2_2_div5_p"></p>
+					<div>
+						<div id="by_body_2_2_div5_div1" class="by vehicle"></div>
+						<div id="by_body_2_2_div5_div2">♥</div>
+						<p>有<span id="by_body_2_2_div5_span"></span>人喜欢</p>
+					</div>					
+				</div>
+			</div>
+		</div>
+		<div id="by_body_3">
+			<ul>
+				<li class="by_body_3_li">产品详情</li>
+				<li>规格参数</li>
+				<li>用户评价（48）</li>
+				<li>售后服务</li>
+				<li>真机图赏</li>
+			</ul>
+			<div id="by_body_3_div">
+				<div id="by_body_3_div_div1">
+					<div id="by_body_3_div_div2">
+						<ul>
+							<li>
+								<img/>
+							</li>
+							<li>
+								<p></p>
+								<span></span>
+							</li>
+						</ul>
+					</div>
+					<div id="by_body_3_div_div3">
+						<ul>
+							<li class="by_body_3_li">产品详情</li>
+							<li>规格参数</li>
+							<li>用户评价（48）</li>
+							<li>售后服务</li>
+							<li>真机图赏</li>
+						</ul>
+						<div class="vehicle"></div>
+					</div>	
+				</div>
+						
+			</div>
+		</div>
+
+		<div id="by_body_4">
+			<ul></ul>		
+		</div>
+		<div id="by_body_5">
+			
+		</div>
+		<div id="by_body_6">
+			<ul>
+				
+			</ul>
+			<div id="by_body_6_div3">查看更多评论>></div>
+			<div id="by_body_6_div4">
+				<table>
+					<tr>
+						<td>标签 :</td>
+						<td>
+							<div>
+								<span id="by_body_6_div4_span"></span>
+								自定义
+							</div>
+							<div>提交</div>
+						</td>
+					</tr>
+					<tr>
+						<td>图片 :</td>
+						<td>
+							<div>添加图片</div>
+							<div>添加图片</div>
+							<div>添加图片</div>
+							<div>添加图片</div>
+							<div>添加图片</div>
+						</td>
+					</tr>
+					<tr>
+						<td>心得 :</td>
+						<td>
+							<textarea></textarea>
+						</td>
+					</tr>
+					<tr>
+						<td></td>
+						<td>
+							<div>提交评论</div>
+						</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+		<div id="by_body_7">
+			<div>
+				<h2>小辣椒承诺</h2>
+				<div>
+					<img src="../by-img/after1.jpg"/>
+				</div>
+			</div>
+			<div>
+				<h2>关于物流</h2>
+				<div>
+					<img src="../by-img/after2.jpg"/>
+				</div>
+			</div>
+			<div>
+				<h2>关于发票 </h2>
+				<div>
+					<img src="../by-img/after3.jpg"/>
+				</div>
+			</div>
+			<div>
+				<h2>关于小辣椒</h2>
+				<div>
+					<img src="../by-img/after4.jpg"/>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	
+
+
+
+	<div id="home_body_6">
+		<ul id="home_body_6_ul1">
+			<li id="home_body_6_li1"><a href="http://www.xiaolajiao.com/article-220.html">
+				<span></span>
+				<span>
+					7天<br/>
+					退货保障
+				</span>
+			</a></li>
+			<li id="home_body_6_li2"><a href="http://www.xiaolajiao.com/article-220.html">
+				<span></span>
+				<span>
+					15天<br/>
+					退货承诺
+				</span>
+			</a></li>
+			<li id="home_body_6_li3"><a href="http://www.xiaolajiao.com/article-213.html">
+				<span></span>
+				<span>
+					49元起<br/>
+					全场免邮费
+				</span>
+			</a></li>
+			<li id="home_body_6_li4"><a href="http://www.xiaolajiao.com/poststation.html">
+				<span></span>
+				<span>
+					200余家<br/>
+					售后服务网点
+				</span>
+			</a></li>
+		</ul>
+		<ul id = "home_body_6_ul2">
+			<li>
+				<p>帮助中心</p>
+				<p><a href="http://www.xiaolajiao.com/article-217.html">支付方式</a></p>
+				<p><a href="http://www.xiaolajiao.com/article-213.html">配送方式</a></p>
+				<p><a href="http://www.xiaolajiao.com/article-208.html">购物指南</a></p>
+			</li>
+			<li>
+				<p>服务支持</p>
+				<p><a href="http://bbs.xiaolajiao.com/5.php">相关下载</a></p>
+				<p><a href="http://www.xiaolajiao.com/article-220.html">售后政策</a></p>
+				<p><a href="http://www.xiaolajiao.com/article-214.html">物流查询</a></p>
+			</li>
+			<li>
+				<p>小辣椒基地</p>
+				<p><a href="http://www.xiaolajiao.com/poststation.html">服务网点</a></p>
+				<p><a href="http://www.xiaolajiao.com/authorize.php">品牌授权商</a></p>
+				<p><a href="http://www.xiaolajiao.com/poststation.html?act=line">线下合作零售店</a></p>
+			</li>
+			<li>
+				<p>关于小辣椒</p>
+				<p><a href="http://www.xiaolajiao.com/article-205.html">加入我们</a></p>
+				<p><a href="http://www.xiaolajiao.com/article-206.html">联系我们</a></p>
+				<p><a href="http://www.xiaolajiao.com/article-201.html">了解小辣椒</a></p>
+			</li>
+			<li>
+				<p>关注我们</p>
+				<p><a href="http://weibo.com/u/3811361823?topnav=1&wvr=5&topsug=1">
+					<span id="home_body_6_ul2_li4_sp1"></span>
+					<span>新浪微博</span>					
+				</a></p>
+				<p><a href="http://e.t.qq.com/xiaolajiaoshouji2013">
+					<span id="home_body_6_ul2_li4_sp2"></span>
+					<span>腾讯微博</span>
+				</a></p>
+				<p><a href="http://bbs.xiaolajiao.com/">
+					<span id="home_body_6_ul2_li4_sp3"></span>
+					<span>官方社区</span>
+				</a></p>
+			</li>
+			<li id="home_body_6_ul2_li6">
+				<p>400-166-5678</p>
+				<p>仅收市话费，周一至周日9:00-21:00</p>
+				<a href="">
+					<span></span>
+					在线客服
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="home_footer1">
+		<span>旗下网站：</span>
+		<a href="">小辣椒天猫店</a>  |
+		<a href="">小辣椒电信店</a>  |
+		<a href="">小辣椒京东店</a>  |
+		<a href="">小辣椒苏宁店</a>  |<br/>
+		<span>友情链接：</span>
+		<a href="">新闻资讯</a>  |
+		<a href="">红辣椒</a>  |
+		<a href="">中国电信</a>  |
+		<a href="">小辣椒配件</a>  |
+		<a href="">性价比手机</a>  |
+		<a href="">安卓市场</a>  |<br/>
+		<span>©</span>
+		<a href="">小辣椒手机官网</a>
+		<span>
+			粤ICP证B2-20130549号 粤ICP备12053227号-3号
+		</span>
+		<br/>
+		<span>版权所有：深圳小辣椒科技有限责任公司 </span><br/>
+		<img src="image/footer_img.gif" />
+	</div>
+	<div id="home_footer">
+		<img src="image/save.jpg"/>
+	</div>
+
+
+
+
+	<div id="aside_right">
+		<div id="aside_right_div1">
+			<img src="../image/kefu.png" alt="客服" />
+			<p>客服</p>
+		</div>
+		<div id="aside_right_div2"></div>
+		<div id="aside_right_div3">
+			<div>售前客服</div>
+			<div>售后客服</div>
+		</div>
+	</div>
+
+</body>
+</html>

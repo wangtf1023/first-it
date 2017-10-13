@@ -1,0 +1,260 @@
+body{
+	background-color: #f2f2f2;
+}
+
+#register_logo{
+	width:960px;
+	padding:0 30px;
+	margin:0 auto ;
+}
+#register_logo_box{
+	background-color:#ececec;
+	padding-top: 25px;
+	padding-bottom: 15px;
+	border-bottom:1px solid #d9d9d9;
+}
+
+
+#register_footer1{
+	width:950px;
+	margin:0 auto;
+	padding:30px 0 30px;
+	text-align: center;
+	font-size: 12px;
+	color:#434a54;
+}
+#register_footer1 a{
+	font-size: 12px;
+	color:#434a54;
+}
+#register_footer2{
+	width:950px;
+	margin:0 auto;
+	text-align: center;
+	padding-bottom: 80px;
+}
+#register_footer2 a{
+	margin:5px;
+}
+
+
+#login_body{
+	width:904px;
+	margin:80px auto 0;
+	background: #f9f9f9;
+	margin-bottom: 10px;
+}
+#login_box{
+	width:904px;
+	height: 513px;
+    border: 1px solid #DADADA;
+    border-bottom: none;
+}
+#login_body_footer{
+	height:54px;
+	background: url(../image1/bom_cor.png) left no-repeat;
+}
+#login_h4{
+	margin: 0 0 10px 30px;
+    padding-top: 20px;
+    font-size: 22px;
+    color: #d4251d;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+}
+    
+#login_p{
+	padding: 0 0 20px 30px;
+    border-bottom: 1px dashed #E3E3E3;
+    color: #999;
+    margin-bottom: 20px;
+    
+}
+#login_p a{
+	color:#d4251d;
+}
+#login_box table{
+	width:902px;
+}
+#login_table tr td:first-child{
+	width:20%;
+	text-align: right;
+	font-size: 14px;
+    color: #000000;
+    font-weight: bold;
+    padding:5px;
+}
+
+#login_table tr td:last-child{
+	padding:5px;
+}
+#login_table tr{
+	margin-bottom: 5px;
+}
+#login_table tr td:last-child span{
+	float: left;
+    background: url(../image1/n.png) left center no-repeat;
+    padding-left: 20px;
+    color: #333;
+    margin-left: 15px;
+    margin-top: 8px;
+    display: none;
+}
+
+#login_tr1{
+	height:48px;
+}
+#login_table input{
+	float: left;
+	display: block;
+	border: 1px solid #e3e3e3;
+    border-top: 1px solid #cccccc;
+    width: 210px;
+    /*height: 20px;*/
+    line-height: 20px;
+    padding: 8px 0;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px white;
+}
+#login_num2{
+	color: #999;
+	padding:5px;
+	font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+#login_code{
+	height:62px;
+}
+#login_code div{
+    float: left;
+    height:48px;
+    width:150px;
+    background: #eee;
+    line-height: 48px;
+    font-size: 32px;
+    text-align: center;
+    cursor:pointer;
+    margin-left: 10px;
+}
+#login_code div p{
+    display: inline-block;
+    text-align: center;
+    margin:0;
+    padding:0;
+    margin-left: -5px;
+}
+
+#login_numcode{
+    float: left;
+	height:48px;
+    position: relative;
+}
+
+#login_numcode #login_numcode_div{
+	float: left;
+	display: inline-block;
+    height: 38px;
+    border: 1px solid #dadada;
+    font-size: 14px;
+    line-height: 38px;
+    width: 273px;
+    text-align: center;
+    color: #333;
+    font-weight: bold;
+    width: 120px;
+    margin-left: 10px;
+    background-color: #f5f7fa;
+    cursor:pointer;
+}
+#login_numcode input{
+	width:168px;
+}
+#login_table #login_password_span{
+ 	display: block;
+ 	background-image:none; 
+    float: left;
+    color: #999;
+    line-height: 16px;
+    margin-top:11px;
+    margin-left:10px;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    font-size: 14px;
+}
+#login_password_span1{
+	display: none;
+    float: left;
+    line-height: 16px;
+    margin-top:11px;
+    margin-left:10px;
+    font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    font-size: 14px;
+
+    padding-left: 20px;
+    color: #333;
+    margin-left: 15px;
+    margin-top: 8px;
+}
+#login_password_btn{
+	font-size: 14px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    width: 140px;
+    background-color: #d4251d;
+    border: 0 none;
+    color: #FFFFFF;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#login_password_p p{
+	font-family: arial,"Hiragino Sans GB","Microsoft Yahei",sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #656d78;
+    margin-top: 5px;
+}
+#login_password_p p a{
+	color:#d4251d;
+}
+#login_numcode #login_numcode2{
+	display: block;
+    float: left;
+    color: #999;
+    font-size: 10px;
+    background-image:none;
+    padding:3px; 
+    margin-left: 0;
+}
+
+#phoneCode{
+    width:250px;
+    height:100px;
+    background: #eee;
+    color:orange;
+    position: absolute;
+    top:-25px;
+    left:20%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 0px;
+}
+#phoneCode #phoneCode_div3{
+    color:red;
+    display: inline-block;
+}
+#phoneCode #phoneCode_div4{
+    width:90px;
+    height:30px;
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    bottom:5px;
+    right:80px;
+    text-align: center;
+    line-height: 30px;
+    cursor:pointer;
+    border-radius: 5px;
+}
+#phoneCode #phoneCode_div4:hover{
+    border:1px solid yellow;
+}

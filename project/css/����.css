@@ -1,0 +1,90 @@
+
+#nav{
+	background: rgba(0,0,0,0.5);
+}
+
+#serve{
+	width:1200px;
+	margin:0 auto;
+	margin-top: 100px;
+	position: relative;
+	height:100%;
+}
+#serve_div1{
+	color:#666;
+	padding:20px 0;
+}
+#serve_div1 a{
+	color:#666;
+}
+#serve_div1 a:hover{
+	color:#ef3d39;
+}
+
+#serve_div3 h2{
+	border-bottom: 1px solid #d7d7d7;
+    font-size: 18px;
+    padding-bottom: 17px;
+    padding-top: 17px;
+}
+#serve_div4{
+	display: block;
+	height:340px;
+}
+#serve_div4 ul{
+	display: block;
+	height:100%;
+	width:1200px;
+}
+#serve_div4 ul li{
+	list-style: none;
+	background: #fafbfd;
+    float: left;
+    height: 149px;
+    margin-bottom: 8px;
+    margin-right: 8px;
+    text-align: center;
+    width: 292px;
+}
+#serve_div4 ul li:hover{
+	background: #ececec;
+}
+#serve_div4 ul li a{
+	display: block;
+	height:149px;
+	color:#666;
+}
+#serve_div4 ul li a img{
+	margin:0 auto 17px;
+	padding-top: 37px;
+}
+#serve_div4 ul li a span{
+	font-size: 14px;
+	color:#666;
+}
+
+#serve_div4 ul li:last-child{
+	position: relative;
+}
+#serve_div4 ul li input{
+	border-bottom: 1px solid #999999;
+    border-left: 1px solid #999999;
+    border-top: 1px solid #999999;
+    height: 41px;
+    margin-top: 56px;
+    width: 115px;
+    display: inline-block;
+    margin-right: 60px;
+}
+#serve_div4 ul li:last-child span{
+	background: #fff url("../image/bg_icon.png") 0 -38px no-repeat;
+    border: 1px solid #999999;
+    height: 41px;
+    margin-top: 56px;
+    width: 54px;
+    vertical-align: top;
+    display: inline-block;
+    position: absolute;
+    right:67px;
+    cursor:pointer;
+}

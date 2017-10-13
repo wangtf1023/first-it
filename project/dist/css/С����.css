@@ -1,0 +1,184 @@
+#nav{
+    background: rgba(0,0,0,0.5);
+}
+#red_body{
+	width:1200px;
+	margin:0 auto;
+	position: relative;
+	padding-top: 100px;
+}
+#red_body_h3{
+	margin: 0;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    color: #333;
+    border-bottom: 1px solid #dfdfdf;
+}
+#red_body_div1{
+	width:1200px;
+}
+#red_body_div1_div1,#red_body_div1_div2{
+	font-size: 12px;
+    color: #8c8c8c;
+    /*height: 18px;*/
+    line-height: 18px;
+    margin-top: 20px;
+    overflow: hidden;
+    position: relative;
+}
+#red_body_div1_div2{
+	margin:0;
+}
+.red_body_div1_div1 p{
+	position: absolute;
+	left:0;
+	top:0;
+	height:18px;
+	width:60px;
+	float: left;
+    clear: both;
+    margin: 0 0 10px;
+    text-align: left;
+    color: #666666;
+}
+#red_body_div1_div1 div{
+	float: left;
+}
+.red_body_div1_div1 div span{
+	padding:0 20px;
+	color:#333;
+	border-right: 1px solid #dfdfdf;
+    cursor: pointer;
+}
+.red_body_div1_div1 div span:first-child{
+	padding-left: 80px;
+	color:#ef3d39;
+}
+.red_body_div1_div1 div span:hover{
+	color:#ef3d39;
+}
+
+#red_body_2{
+	width:1200px;
+	margin:0 auto;
+	background: #fdfdfd;
+    height: 40px;
+    line-height: 40px;
+    border-top: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-right: 1px solid #dfdfdf;
+    margin-top: 30px;
+    position: relative;
+}
+#red_body_2 div{
+	float: right;
+	width:120px;
+	margin-right: 10px;
+}
+#red_body_2 span{
+	margin-left: 10px;
+}
+#red_body_2 a{
+	display: inline-block;
+	padding: 0 66px;
+	color: #333;
+	border-right: 1px solid #dfdfdf;
+}
+#red_body_2 #red_body_2_a{
+	border:0;
+	color:#ef3d39;
+}
+
+#red_body_2 input{
+	vertical-align: middle;
+	margin:0;
+}
+#red_body_2 a:hover{
+	color:#ef3d39;
+}
+#red_body_3{
+	width:1200px;
+	border: 1px solid #dfdfdf;
+	margin:0 auto;
+}
+
+#red_body_3 ul li{
+	list-style: none;
+	float: left;
+    width: 299px;
+    height: 379px;
+    border-bottom: 1px solid #dfdfdf; 
+    border-right: 1px solid #dfdfdf; 
+    overflow: hidden;
+    text-align: center;
+}
+
+
+#red_body_3 ul{
+	overflow: hidden;
+}
+
+#red_body_3 ul li img{
+	width: 180px;
+    height: 180px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#red_body_3 ul li .red_body_3_div{
+    position: relative;
+    display: block;
+    height: 379px;
+    padding: 4px;
+    border: 6px solid #fff;
+    text-align: center;
+    color: #000;
+    -webkit-transition: border-color .5s;
+    transition: border-color .5s;
+}
+#red_body_3 ul li .red_body_3_div:hover{
+    border: 6px solid rgba(243,243,243,0.8);
+}
+
+#red_body_3 ul li .red_body_3_div p{
+	display: block;
+    width: 250px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding-top: 10px;
+    line-height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #666;
+}
+#red_body_3 ul li .red_body_3_div span{
+	font-size: 14px;
+}
+.red_body_3_div3{
+    width: 137px;
+    height: 30px;
+    background: #ff4a00;
+    margin: 10px auto;
+    line-height: 30px;
+    color: #FFF;
+    display: none;
+    cursor:pointer;
+}
+
+.red_body_3_div2 .red_body_3_span{
+	text-decoration: line-through;
+    padding-left: 10px;
+    color: #8c8c8c;
+}
+.red_body_3_div4{
+    position: absolute;
+    top: -6px;
+    right: 10px;
+    width: 56px;
+    height: 31px;
+    line-height: 31px;
+    z-index: 1;
+    color: #fff;
+    background: url(../red-img/youhui-1.jpg) no-repeat;
+}

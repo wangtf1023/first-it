@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	 
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script type="text/javascript" src = "js/jquery-1.11.1.js"></script>
+	<script type="text/javascript" src = "js/bootstrap.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/register_css.css">
+	<script type="text/javascript" src="js/jquery.cookie.js"></script>
+	<script type="text/javascript" src="js/register.js"></script>
+	<title>登录</title>
+</head>
+<body unselectable="on" onselectstart="return false;" style="-moz-user-select:none;"> 
+
+	<div id="register_logo_box">	
+		<div id="register_logo">
+			<a href="主页.html"><img src="image1/logo.gif"></a>
+		</div>
+	</div>
+
+	<div id="user_box">
+		<div id="user-box">
+			<div id = "login">
+				<div id="register_divp">
+					<p id="register_p"><b>欢迎登录</b></p><span id="register_p2"><a href=""><b>(账号不能登录？请点击)</b></a></span>
+				</div>		
+				<form id="register_form" class="form-horizontal">
+					<div id="register_div1" class="input-group">
+				        <span id="register_name_span" class="input-group-addon glyphicon glyphicon-user"></span>
+				        <input id="register_name" type="text" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status" placeholder="用户名">
+				        <span id="register_no" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				   		<span id="register_ok" class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+				    </div>
+				    <p id="register_div1_p"></p>
+				    <div id="register_div2" class="input-group">
+				        <span id="register_name_span" class="input-group-addon glyphicon glyphicon-lock"></span>
+				        <input id="register_pass" type="password" class="form-control" id="inputGroupSuccess2" aria-describedby="inputGroupSuccess2Status" placeholder="密码">
+				   		<span id="register_no1" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+				   		<span id="register_ok1" class="glyphicon glyphicon-ok" aria-hidden="true"></span>
+				    </div>
+				    <div id="register_div2_p">
+				    	<span class="register_div2_p_span" id="register_div2_p_span1"></span>
+				    	<span class="register_div2_p_span" id="register_div2_p_span2"></span>
+				    	<span class="register_div2_p_span" id="register_div2_p_span3"></span>
+				    	<span id="register_div2_p_span4">密码强度中</span>
+				    </div>
+				    <div id="register_check" class="checkbox">
+				        <label>
+					        <input id="register_check_input" type="checkbox" id="checkboxError" value="option1"><b>
+					        保存登录信息</b>
+				      	</label>
+				      	<a id="register_a" href="http://member.shopin.net/findPassword">忘记密码</a>
+				    </div>
+				    <button id="register_but" type="button" class="btn btn-btn-danger">登录</button>	    
+				</form>  
+				
+				<div id="register_link">
+					<span><b>其他账号登录 :</b></span>
+					
+					<ul id="register_ul">
+						<li id="register_li1">
+							<a id="register_qq" href="https://graph.qq.com/oauth/show?which=Login&display=pc&client_id=101036838&redirect_uri=http%3A%2F%2Faccount.xiaolajiao.com%2Fpassport.php%3Fact%3Doath_login%26type%3Dqq%26callback%3Dhttp%253A%252F%252Fwww.xiaolajiao.com%252F%26open%3D0&response_type=code&scope=get_user_info"></a>
+						</li>
+						<li id="register_li2">
+							<a id="register_weibo" href="https://api.weibo.com/oauth2/authorize?client_id=4025662336&redirect_uri=http%3A%2F%2Faccount.xiaolajiao.com%2Fpassport.php%3Fact%3Doath_login%26type%3Dweibo%26callback%3Dhttp%253A%252F%252Fwww.xiaolajiao.com%252F%26open%3D0&response_type=code&display=popup"></a>
+						</li>
+						<li id="register_li3">
+							<a id="register_pay" href="https://auth.alipay.com/login/express.htm?goto=https%3A%2F%2Fmemberexprod.alipay.com%3A443%2Fauthorize%2FuserAuthQuickLoginAction.htm%3Fe_i_i_d%3Dd674bad2179a80f59ffcd8eaff82209c"></a>
+						</li>
+					</ul>
+					
+					<a id="register_a2" href="注册.html">免费注册</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="register_footer1">
+		©
+		<a href="http://www.xiaolajiao.com">小辣椒手机官网</a>
+		粤ICP证B2-20130549号 粤ICP备12053227号-3号
+		<p>版权所有：深圳语信时代通信设备有限公司</p>
+		<img src="image1/footer_img.gif" />
+	</div>
+	<div id="register_footer2">
+		<a href="https://ss.cnnic.cn/verifyseal.dll?sn=e130924440300426112kgc000000&ct=df&a=1&pa=0.8907775566913188">
+			<img src="image1/cnnicVerifyseal.png"/>
+		</a>
+		<a href="https://credit.cecdc.com/CX20130912002773003081.html">
+			<img src="image1/szfwVerifyseal.gif"/>
+		</a>
+		<a href="http://www.315online.com.cn/member/315130034.html">
+			<img src="image1/save.jpg"/>
+		</a>
+	</div>
+
+
+
+</body>
+</html>
